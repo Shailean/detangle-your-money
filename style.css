@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom properties */
+
+:root {
+    --ff-primary: 'Oswald', sans-serif;
+   
+    --fw-med: 500;
+    --fw-reg: 400;
+    --fw-light: 300;
+    --fw-ex-light: 200;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --clr-main: #029C76;
+    --clr-accent: #00BF90;
+    --clr-text-bg: #01513D;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
