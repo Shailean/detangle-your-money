@@ -11,10 +11,13 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <!--Font-->
+  <!--Oswald and Source Sans Pro fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -27,7 +30,7 @@
 <body>
   <header>
     <div class="title">
-      <h1 class="title-heading">DETANGLE YOUR MONEY</h1>
+      <h1 class="title-heading"><a href="index.html">DETANGLE YOUR MONEY</a></h1>
     </div>
 
     <nav class="nav">
@@ -43,14 +46,17 @@
   <section class="hero">
     <div class="hero-content">
       <div class="hero-background-image">
-        <img src="photos/homepage_photo.jpeg" alt="Man in front of green background">
-        <img src="photos/homepage_photo2.jpeg" alt="Woman wearing black t-shirt">
-        <img src="photos/homepage_photo3.jpeg" alt="Woman with afro">
-      </div> <!--hero-background-image-->
+        <div id="green">
+          <img class="green-pic" src="photos/homepage_photo.jpeg" alt="Man in front of green background">
+        </div> <!--green-->
+        <img class="black-shirt" src="photos/homepage_photo2.jpeg" alt="Woman wearing black t-shirt">
+        <img class="afro" src="photos/homepage_photo3.jpeg" alt="Woman with afro">
+      </div> 
+    
 
       <div class="hero-text">
         <h1 class="hero-text-heading">$3,000 towards your first home purchase</h1>
-        <p>
+        <p class="hero-text-paragraph">
           Let's create a financial plan to achieve all your life goals. See if you  quality for our matched savings program.
         </p>
       </div> <!--hero-text-->
@@ -65,22 +71,22 @@
 
     <div class="money-confidence-icons">
       <div class="money-confidence-goals">
-        <img src="icons/create-goals_icon.png" alt="man on pedestal">
+        <img class="goals-icon" src="icons/create-goals_icon.png" alt="man on pedestal">
         <p>Create goals and see what changes you need to make to reach them</p>
       </div>
 
       <div class="money-confidence-review">
-        <img src="icons/review-spending_icon.png" alt="hand with dollar bill">
+        <img class="review-icon" src="icons/review-spending_icon.png" alt="hand with dollar bill">
         <p>Review your current spending habits and create a budget </p>
       </div>
 
       <div class="money-confidence-meet">
-        <img src="icons/meet-coach_icon.png" alt="video call">
+        <img class="meet-icon" src="icons/meet-coach_icon.png" alt="video call">
         <p>Set a schedule to meet with your financial coach and track your progress</p>
       </div>
 
       <div class="money-confidence-products">
-        <img src="icons/fin-products_icon.png" alt="bar chart">
+        <img class="products-icon" src="icons/fin-products_icon.png" alt="bar chart">
         <p>Tweak goals as needed and learn about suitable financial products and services</p>
       </div>
     </div> <!--money-confidence-icons-->

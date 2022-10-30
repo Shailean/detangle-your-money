@@ -1,34 +1,234 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Custom properties */
 
 :root {
-    --ff-primary: 'Oswald', sans-serif;
-   
-    --fw-med: 500;
-    --fw-reg: 400;
-    --fw-light: 300;
-    --fw-ex-light: 200;
+  --ff-primary: 'Oswald', sans-serif;
+  --ff-secondary: 'Source Sans Pro', sans-serif;
+  
+  --fw-med: 500;
+  --fw-reg: 400;
+  --fw-light: 300;
+  --fw-ex-light: 200;
 
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
-
-    --clr-main: #029C76;
-    --clr-accent: #00BF90;
-    --clr-text-bg: #01513D;
+  --clr-main: #029C76;
+  --clr-accent: #00BF90;
+  --clr-text-bg: #01513D;
 }
 
 @media (min-width: 800px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
-    }
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.125rem;
+  }
 }
+
+/* Header */
+
+.title {
+  border: 1px solid var(--clr-main);
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: var(--clr-main);
+}
+
+.title-heading a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--ff-primary);
+  font-size: 30px;
+  letter-spacing: 1.8px;
+}
+
+/* Navigation */
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 60px 10px 5px 30px;
+}
+
+.nav-item a {
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+  font-family: var(--ff-primary);
+  font-size: 22px;
+  margin: 20px;
+}
+
+.nav li:first-child a {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav-item a:hover {
+  border-bottom: 3px solid var(--clr-accent);
+}
+
+.current-pg {
+  border-bottom: 3px solid var(--clr-accent);
+}
+
+
+/* Homepage - Hero section */
+
+.hero-background-image {
+  display: inline-flex;
+  width: 89.2em;
+  min-height: 20em;
+
+}
+    .green-pic {
+      width: 50em;
+      height: 20em;
+      object-fit: cover;
+    }
+    .black-shirt {
+      width: 25em;
+      height: 20em;
+      object-fit: cover;
+    }
+    .afro {
+      width: 20em;
+      height: 20em;
+      object-fit: cover;
+    }
+  
+.hero-text {
+  float: left;
+  background-color: rgba(1, 81, 62, 0.7);
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  width: 300px;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+    .hero-text-heading {
+      font-weight: var(--fw-reg);
+      font-family: var(--ff-primary);
+      font-size: 25px;
+      letter-spacing: 0.8px;
+    }
+    .hero-text-paragraph {
+      font-family: var(--ff-secondary);
+      font-weight: var(--fw-light);
+      font-size: 18px;
+    }
+
+button {
+  float: left;
+  background-color: white;
+  position: absolute;
+  top: 460px;
+  left: 30px;
+  width: 100px;
+  height: 45px;
+  color: var(--clr-main);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-reg);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+}
+
+button:hover {
+  background-color: var(--clr-text-bg);
+  color: white;
+}
+
+/* Homepage - Icons section */
+
+.money-confidence-heading {
+  text-align: center;
+  color: grey;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-light);
+}
+
+.money-confidence-icons {
+  display: inline-flex;
+  float: right;
+  max-width: 100%;
+}
+
+  .money-confidence-goals {
+    padding: 10px;
+    margin: 10px;
+    max-width: 25%;
+  }
+      .goals-icon {
+        display: flex;
+        margin: auto;
+        width: 30%;
+      }
+      .money-confidence-goals p {
+        padding-top: 6px;
+        font-family: var(--ff-secondary);
+        font-size: 20px;
+        text-align: center;
+        font-weight: var(--fw-light);
+      }
+
+  .money-confidence-review {
+    padding: 10px;
+    margin: 10px;
+    max-width: 25%;
+  }
+      .review-icon {
+        display: flex;
+        margin: auto;
+        width: 35%;
+      }
+      .money-confidence-review p {
+        padding-top: 6px;
+        font-family: var(--ff-secondary);
+        font-size: 20px;
+        text-align: center;
+        font-weight: var(--fw-light);
+      }
+
+  .money-confidence-meet {
+    padding: 10px;
+    margin: 10px;
+    max-width: 25%;
+  }
+      .meet-icon {
+        display: flex;
+        margin: auto;
+        width: 30%;
+      }
+      .money-confidence-meet p {
+        padding-top: 0.3px;
+        font-family: var(--ff-secondary);
+        font-size: 20px;
+        text-align: center;
+        font-weight: var(--fw-light);
+      }
+
+  .money-confidence-products {
+    padding: 10px;
+    margin: 10px;
+    max-width: 25%;
+  }
+      .products-icon {
+        display: flex;
+        margin: auto;
+        width: 30%;
+      }
+      .money-confidence-products p {
+        font-family: var(--ff-secondary);
+        font-size: 20px;
+        text-align: center;
+        font-weight: var(--fw-light);
+      }
