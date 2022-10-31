@@ -103,20 +103,22 @@
   
 .hero-text {
   float: left;
-  background-color: rgba(1, 81, 62, 0.7);
+  background-color: rgba(1, 81, 62, 0.76);
   position: absolute;
-  top: 270px;
+  top: 260px;
   left: 30px;
   width: 300px;
   color: white;
   padding: 0px 10px;
   border-radius: 10px;
+  line-height: 1.5em;
 }
     .hero-text-heading {
       font-weight: var(--fw-reg);
       font-family: var(--ff-primary);
       font-size: 25px;
       letter-spacing: 0.8px;
+      line-height: 1.2em;
     }
     .hero-text-paragraph {
       font-family: var(--ff-secondary);
@@ -158,7 +160,7 @@ button:hover {
 
 .money-confidence-icons {
   display: inline-flex;
-  float: right;
+  float: left;
   max-width: 100%;
 }
 
@@ -232,3 +234,391 @@ button:hover {
         text-align: center;
         font-weight: var(--fw-light);
       }
+
+/* Meet with us - Page */
+
+.schedule {
+  text-align: center;
+  color: grey;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-light);
+  margin: 50px 0px 50px 0px;
+}
+
+.container {
+  top: 160px;
+  left: 450px;
+  position: absolute;
+  
+}
+  .schedule-button {
+    background-color: var(--clr-main);
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+  }
+
+.coaching-process-icons {
+  display: inline-flex;
+  float: left;
+  max-width: 100%;
+  margin: 0px 0px 100px 0px;
+}
+
+.coaching-process-meet {
+  padding: 10px;
+  margin: 10px;
+  max-width: 25%;
+}
+    .meet-coach-icon {
+      display: flex;
+      margin: auto;
+      width: 40%;
+    }
+    .coaching-process-meet p {
+      padding-top: 6px;
+      font-family: var(--ff-secondary);
+      font-size: 20px;
+      text-align: center;
+      font-weight: var(--fw-light);
+    }
+
+.action-steps {
+  padding: 10px;
+  margin: 10px;
+  max-width: 25%;
+}
+    .action-steps-icon {
+      display: flex;
+      margin: auto;
+      width: 40%;
+    }
+    .action-steps p {
+      padding-top: 6px;
+      font-family: var(--ff-secondary);
+      font-size: 20px;
+      text-align: center;
+      font-weight: var(--fw-light);
+    }
+
+.check-in {
+  padding: 10px;
+  margin: 10px;
+  max-width: 25%;
+}
+    .check-in-icon {
+      display: flex;
+      margin: auto;
+      width: 30%;
+    }
+    .check-in p {
+      padding-top: 16px;
+      font-family: var(--ff-secondary);
+      font-size: 20px;
+      text-align: center;
+      font-weight: var(--fw-light);
+    }
+
+.support {
+  padding: 10px;
+  margin: 10px;
+  max-width: 25%;
+}
+    .support-icon {
+      display: flex;
+      margin: auto;
+      width: 35%;
+    }
+    .support p {
+      padding-top: 6px;
+      font-family: var(--ff-secondary);
+      font-size: 20px;
+      text-align: center;
+      font-weight: var(--fw-light);
+    }
+
+/* Who we are - Page */
+
+.about-us {
+  display: flex;
+}
+
+.images {
+  float: left;
+  margin-top: 30px;
+  width: 50%;
+}
+  .trina {
+    width: 287px;
+    height: 287px;
+    border-radius: 50%;
+    margin-left: 30px;
+    border: 15px solid var(--clr-accent);
+  }
+  #name-trina {
+    font-family: var(--ff-primary);
+    color: var(--clr-main);
+    font-size: var(--fs-h3);
+    margin-left: 130px;
+    margin-top: 2px;
+  }
+  .shailean {
+    width: 287px;
+    height: 287px;
+    border-radius: 50%;
+    margin-left: 320px;
+    margin-top: -250px;
+    border: 15px solid var(--clr-accent);
+  }
+  #name-shailean {
+    font-family: var(--ff-primary);
+    color: var(--clr-main);
+    font-size: var(--fs-h3);
+    margin-left: 425px;
+    margin-top: -1px;
+  }
+  .pronunciation {
+    margin-left: 1px;
+    font-weight: var(--fw-ex-light);
+    font-size: 20px;
+    color: rgb(147, 147, 147);
+  }
+
+.about-us-text {
+  position: absolute;
+  margin: 0px 40px 40px 650px;
+  font-family: var(--ff-secondary);
+  text-align: left;
+  font-weight: var(--fw-light);
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+/* Your money goals - Page */
+
+.goals h1 {
+  text-align: center;
+  color: grey;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-light);
+  margin: 50px 0px 50px 0px;
+}
+
+.goal-images {
+  display: inline-flex;
+  float: left;
+  max-width: 100%;
+  background-color: rgba(183, 227, 205, 0.5);
+}
+.goal-images2 {
+  display: inline-flex;
+  float: left;
+  max-width: 100%;
+  background-color:rgba(183, 227, 205, 0.5);
+}
+  span {
+    font-weight: bold;
+    color: var(--clr-main);
+  }
+
+  .goal-homeownership {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-homeownership-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-retirement {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-retirement-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-emergency {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-emergency-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-credit {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-credit-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-career {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-career-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-vacation {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-vacation-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-family {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-family-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-business {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-business-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-couples {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-couples-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .goal-education {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--clr-accent);
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .goal-education-text {
+    padding-top: 6px;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    text-align: center;
+    font-weight: var(--fw-light);
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
