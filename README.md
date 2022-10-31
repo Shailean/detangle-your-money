@@ -6,11 +6,9 @@ At the time, working as a Financial Coach with no programming skills, I created 
 Now that I have acquired some programming skills through self study and bootcamps I have decided to revisit and revamp the website I would've created back in 2017.
 
 ## Tools Used
-**Figma**: I have an interest in UI and content design so I challenged myself to learn Figma by creating the wireframe for this website 
-<br>
-**HTML** 
-<br>
-**CSS**
+1. **Figma**: I have an interest in UI and content design so I challenged myself to learn Figma by creating the wireframe for this website 
+2. **HTML** 
+3. **CSS**
 
 
 ## Challenges
