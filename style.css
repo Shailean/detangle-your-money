@@ -72,7 +72,8 @@
   border-bottom: 3px solid var(--clr-accent);
 }
 
-.current-pg {
+li .current-pg {
+  color: var(--clr-accent);
   border-bottom: 3px solid var(--clr-accent);
 }
 
@@ -246,9 +247,9 @@ button:hover {
 }
 
 .container {
-  top: 160px;
-  left: 450px;
-  position: absolute;
+  top: -160px;
+  left: 40%;
+  position: relative;
   
 }
   .schedule-button {
