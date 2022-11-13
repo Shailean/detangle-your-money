@@ -42,8 +42,8 @@
   text-decoration: none;
   color: white;
   font-family: var(--ff-primary);
-  font-size: 30px;
-  letter-spacing: 1.8px;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
 }
 
 /* Navigation */
@@ -59,7 +59,7 @@
   text-decoration: none;
   padding: 0px;
   font-family: var(--ff-primary);
-  font-size: 22px;
+  font-size: 1.5rem;
   margin: 20px;
 }
 
@@ -82,23 +82,23 @@ li .current-pg {
 
 .hero-background-image {
   display: inline-flex;
-  width: 89.2em;
+  width: 100%;
   min-height: 20em;
-
 }
     .green-pic {
-      width: 50em;
-      height: 20em;
+      width: 50rem;
+      height: 20rem;
+      /* height: 20em; */
       object-fit: cover;
     }
     .black-shirt {
-      width: 25em;
-      height: 20em;
+      width: 50rem;
+      height: 20rem;
       object-fit: cover;
     }
     .afro {
-      width: 20em;
-      height: 20em;
+      width: 30rem;
+      height: 20rem;
       object-fit: cover;
     }
   
@@ -112,19 +112,19 @@ li .current-pg {
   color: white;
   padding: 0px 10px;
   border-radius: 10px;
-  line-height: 1.5em;
+  line-height: 1.5rem;
 }
     .hero-text-heading {
       font-weight: var(--fw-reg);
       font-family: var(--ff-primary);
-      font-size: 25px;
+      font-size: 1.5rem;
       letter-spacing: 0.8px;
       line-height: 1.2em;
     }
     .hero-text-paragraph {
       font-family: var(--ff-secondary);
       font-weight: var(--fw-light);
-      font-size: 18px;
+      font-size: 1.1rem;
     }
 
 button {
@@ -138,7 +138,7 @@ button {
   color: var(--clr-main);
   font-family: var(--ff-primary);
   font-weight: var(--fw-reg);
-  font-size: 20px;
+  font-size: 1.2rem;
   padding: 10px;
   border-radius: 10px;
   border-style: solid;
@@ -178,7 +178,7 @@ button:hover {
       .money-confidence-goals p {
         padding-top: 6px;
         font-family: var(--ff-secondary);
-        font-size: 20px;
+        font-size: 1.3rem;
         text-align: center;
         font-weight: var(--fw-light);
       }
@@ -196,7 +196,7 @@ button:hover {
       .money-confidence-review p {
         padding-top: 6px;
         font-family: var(--ff-secondary);
-        font-size: 20px;
+        font-size: 1.3rem;
         text-align: center;
         font-weight: var(--fw-light);
       }
@@ -214,7 +214,7 @@ button:hover {
       .money-confidence-meet p {
         padding-top: 0.3px;
         font-family: var(--ff-secondary);
-        font-size: 20px;
+        font-size: 1.3rem;
         text-align: center;
         font-weight: var(--fw-light);
       }
@@ -231,7 +231,7 @@ button:hover {
       }
       .money-confidence-products p {
         font-family: var(--ff-secondary);
-        font-size: 20px;
+        font-size: 1.3rem;
         text-align: center;
         font-weight: var(--fw-light);
       }
@@ -246,7 +246,7 @@ button:hover {
   margin: 50px 0px 50px 0px;
 }
 
-.container {
+.button-container {
   top: -160px;
   left: 40%;
   position: relative;
@@ -255,7 +255,7 @@ button:hover {
   .schedule-button {
     background-color: var(--clr-main);
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
     width: 200px;
     height: 60px;
   }
@@ -280,7 +280,7 @@ button:hover {
     .coaching-process-meet p {
       padding-top: 6px;
       font-family: var(--ff-secondary);
-      font-size: 20px;
+      font-size: 1.5rem;
       text-align: center;
       font-weight: var(--fw-light);
     }
@@ -293,12 +293,12 @@ button:hover {
     .action-steps-icon {
       display: flex;
       margin: auto;
-      width: 40%;
+      width: 37%;
     }
     .action-steps p {
       padding-top: 6px;
       font-family: var(--ff-secondary);
-      font-size: 20px;
+      font-size: 1.5rem;
       text-align: center;
       font-weight: var(--fw-light);
     }
@@ -311,12 +311,12 @@ button:hover {
     .check-in-icon {
       display: flex;
       margin: auto;
-      width: 30%;
+      width: 31%;
     }
     .check-in p {
       padding-top: 16px;
       font-family: var(--ff-secondary);
-      font-size: 20px;
+      font-size: 1.5rem;
       text-align: center;
       font-weight: var(--fw-light);
     }
@@ -329,12 +329,12 @@ button:hover {
     .support-icon {
       display: flex;
       margin: auto;
-      width: 35%;
+      width: 33%;
     }
     .support p {
       padding-top: 6px;
       font-family: var(--ff-secondary);
-      font-size: 20px;
+      font-size: 1.5rem;
       text-align: center;
       font-weight: var(--fw-light);
     }
@@ -382,7 +382,7 @@ button:hover {
   .pronunciation {
     margin-left: 1px;
     font-weight: var(--fw-ex-light);
-    font-size: 20px;
+    font-size: 1.2rem;
     color: rgb(147, 147, 147);
   }
 
@@ -392,7 +392,7 @@ button:hover {
   font-family: var(--ff-secondary);
   text-align: left;
   font-weight: var(--fw-light);
-  font-size: 22px;
+  font-size: 1.5rem;
   line-height: 1.5em;
 }
 
@@ -406,16 +406,25 @@ button:hover {
   margin: 50px 0px 50px 0px;
 }
 
+
+
+/* DELETE DIV BORDER 
+div {
+  border: 1px solid black;
+}
+*/
+
+
 .goal-images {
   display: inline-flex;
   float: left;
-  max-width: 100%;
+  width: 100%;
   background-color: rgba(183, 227, 205, 0.5);
 }
 .goal-images2 {
   display: inline-flex;
   float: left;
-  max-width: 100%;
+  width: 100%;
   background-color:rgba(183, 227, 205, 0.5);
 }
   span {
@@ -424,8 +433,8 @@ button:hover {
   }
 
   .goal-homeownership {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -433,19 +442,17 @@ button:hover {
   .goal-homeownership-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-retirement {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -453,19 +460,17 @@ button:hover {
   .goal-retirement-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-emergency {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -473,19 +478,17 @@ button:hover {
   .goal-emergency-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-credit {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -493,19 +496,17 @@ button:hover {
   .goal-credit-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-career {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -513,19 +514,17 @@ button:hover {
   .goal-career-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-vacation {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -533,19 +532,17 @@ button:hover {
   .goal-vacation-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-family {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -553,19 +550,17 @@ button:hover {
   .goal-family-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-business {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -573,19 +568,17 @@ button:hover {
   .goal-business-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-couples {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -593,19 +586,17 @@ button:hover {
   .goal-couples-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
 
   .goal-education {
-    width: 215px;
-    height: 215px;
+    width: 20em;
+    height: 20rem;
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -613,13 +604,11 @@ button:hover {
   .goal-education-text {
     padding-top: 6px;
     font-family: var(--ff-secondary);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: var(--fw-light);
     line-height: 1.5em;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
   }
   
