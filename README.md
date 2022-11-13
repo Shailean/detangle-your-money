@@ -10,6 +10,11 @@ Now that I have acquired some programming skills through self study and bootcamp
 2. **HTML** 
 3. **CSS**
 
+<br>
+
+![homepage](/detangle.png)
+
+<br>
 
 ## Challenges
 - I am currently working on making the website responsive to mobile screens
