@@ -77,8 +77,12 @@ li .current-pg {
   border-bottom: 3px solid var(--clr-accent);
 }
 
-
-/* Homepage - Hero section */
+/* ------------- DELETE DIV BORDER ------------------ 
+div {
+  border: 1px solid black;
+}
+*/
+/* -------------- HOMEPAGE - Hero section ----------- */
 
 .hero-background-image {
   display: grid;
@@ -87,7 +91,6 @@ li .current-pg {
   width: 100%;
   min-height: 20rem;
 }
-
 #green {
   grid-column: span 4; 
 }
@@ -102,7 +105,6 @@ li .current-pg {
       height: 20rem;
       object-fit: cover;
     }
-  
     .black-shirt {
       width: 100%;
       height: 20rem;
@@ -113,7 +115,6 @@ li .current-pg {
       height: 20rem;
       object-fit: cover;
     }
-    
   
 .hero-text {
   float: left;
@@ -163,7 +164,7 @@ button:hover {
   color: white;
 }
 
-/* Homepage - Icons section */
+/* ---------- HOMEPAGE - Icons section --------- */
 
 .money-confidence-heading {
   text-align: center;
@@ -176,10 +177,8 @@ button:hover {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
-  float: left;
   max-width: 100%;
 }
-
   .money-confidence-goals {
     padding: 10px;
     margin: 10px;
@@ -197,157 +196,7 @@ button:hover {
         font-weight: var(--fw-light);
       }
 
-  .money-confidence-review {
-    padding: 10px;
-    margin: 10px;
-    
-  }
-      .review-icon {
-        display: flex;
-        margin: auto;
-        width: 35%;
-      }
-      .money-confidence-review p {
-        padding-top: 6px;
-        font-family: var(--ff-secondary);
-        font-size: 1.3rem;
-        text-align: center;
-        font-weight: var(--fw-light);
-      }
-
-  .money-confidence-meet {
-    padding: 10px;
-    margin: 10px;
-  }
-      .meet-icon {
-        display: flex;
-        margin: auto;
-        width: 30%;
-      }
-      .money-confidence-meet p {
-        padding-top: 0.3px;
-        font-family: var(--ff-secondary);
-        font-size: 1.3rem;
-        text-align: center;
-        font-weight: var(--fw-light);
-      }
-
-  .money-confidence-products {
-    padding: 10px;
-    margin: 10px;
-  }
-      .products-icon {
-        display: flex;
-        margin: auto;
-        width: 30%;
-      }
-      .money-confidence-products p {
-        font-family: var(--ff-secondary);
-        font-size: 1.3rem;
-        text-align: center;
-        font-weight: var(--fw-light);
-      }
-
-/* Meet with us - Page */
-
-.schedule {
-  text-align: center;
-  color: grey;
-  font-family: var(--ff-primary);
-  font-weight: var(--fw-light);
-  margin: 50px 0px 50px 0px;
-}
-
-.button-container {
-  top: -100px;
-  left: 40%;
-  position: relative;
-  
-}
-  .schedule-button {
-    background-color: var(--clr-main);
-    color: white;
-    font-size: 2rem;
-    width: 200px;
-    height: 60px;
-  }
-
-.coaching-process-icons {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  margin: 0px 0px 100px 0px;
-}
-
-.coaching-process-meet {
-  padding: 10px;
-  margin: 10px;
-}
-    .meet-coach-icon {
-      display: flex;
-      margin: auto;
-      width: 30%;
-    }
-    .coaching-process-meet p {
-      padding-top: 6px;
-      font-family: var(--ff-secondary);
-      font-size: 1.5rem;
-      text-align: center;
-      font-weight: var(--fw-light);
-    }
-
-.action-steps {
-  padding: 10px;
-  margin: 10px;
-}
-    .action-steps-icon {
-      display: flex;
-      margin: auto;
-      width: 30%;
-    }
-    .action-steps p {
-      padding-top: 6px;
-      font-family: var(--ff-secondary);
-      font-size: 1.5rem;
-      text-align: center;
-      font-weight: var(--fw-light);
-    }
-
-.check-in {
-  padding: 10px;
-  margin: 10px;
-}
-    .check-in-icon {
-      display: flex;
-      margin: auto;
-      width: 30%;
-    }
-    .check-in p {
-      padding-top: 5px;
-      font-family: var(--ff-secondary);
-      font-size: 1.5rem;
-      text-align: center;
-      font-weight: var(--fw-light);
-    }
-
-.support {
-  padding: 10px;
-  margin: 10px;
-}
-    .support-icon {
-      display: flex;
-      margin: auto;
-      width: 30%;
-    }
-    .support p {
-      padding-top: 6px;
-      font-family: var(--ff-secondary);
-      font-size: 1.5rem;
-      text-align: center;
-      font-weight: var(--fw-light);
-    }
-
-/* Who we are - Page */
+/* ----------- WHO WE ARE ------------ */
 
 .about-us {
   display: flex;
@@ -404,7 +253,7 @@ button:hover {
   line-height: 1.5em;
 }
 
-/* Your money goals - Page */
+/* ----------- YOUR MONEY GOALS ----------- */
 
 .goals h1 {
   text-align: center;
@@ -414,18 +263,12 @@ button:hover {
   margin: 50px 0px 50px 0px;
 }
 
-
-
-/* DELETE DIV BORDER */
-div {
-  border: 1px solid black;
-}
-
-
 .goal-images {
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  min-height: 20rem;
   background-color: rgba(183, 227, 205, 0.5);
 }
 
@@ -434,183 +277,71 @@ div {
     color: var(--clr-main);
   }
 
-  .goal-homeownership {
-    width: 100%;
+  .goal {
+    grid-template-columns: 1fr;
+  }
+    .goal-image {
+      margin: 1.5rem 0  0 1.5rem;
+      border-radius: 100%;
+      border: 3px solid var(--clr-accent);
+      width: 80%;
+      height: 40%;
+      object-fit: cover;
+    }
+    .goal-text {
+      padding-top: 6px;
+      font-family: var(--ff-secondary);
+      font-size: 1.5rem;
+      text-align: center;
+      font-weight: var(--fw-light);
+      line-height: 1.5em;
+      width: 100%;
+      padding: 1.5rem;
+    }
 
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-homeownership-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
+  /* ----------- MEET WITH US ----------- */
 
-  .goal-retirement {
-    width: 50%;
-    
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-retirement-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
+.schedule {
+  text-align: center;
+  color: grey;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-light);
+  margin: 50px 0px 50px 0px;
+}
 
-  .goal-emergency {
-    width: 100%;
-
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-emergency-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
-
-  .goal-credit {
-    width: 100%;
-    
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-credit-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
-
-  .goal-career {
-    width: 100%;
-
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-career-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
-
-  .goal-vacation {
-    width: 100%;
-
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-vacation-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
-
-  .goal-family {
-    width: 100%;
-
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-family-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
-
-  .goal-business {
-    width: 100%;
-
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-business-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
-
-  .goal-couples {
-    width: 100%;
-
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-couples-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
-
-  .goal-education {
-    width: 100%;
-
-    border: 3px solid var(--clr-accent);
-    border-radius: 50%;
-    margin: 20px;
-  }
-  .goal-education-text {
-    padding-top: 6px;
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: var(--fw-light);
-    line-height: 1.5em;
-    width: 100%;
-    padding: 1.5rem;
-  }
+.button-container {
+  top: -100px;
+  left: 40%;
+  position: relative;
   
+}
+  .schedule-button {
+    background-color: var(--clr-main);
+    color: white;
+    font-size: 2rem;
+    width: 200px;
+    height: 60px;
+  }
+
+.coaching-process-icons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  margin: 0px 0px 100px 0px;
+}
+  .process-icon {
+    padding: 10px;
+    margin: 10px;
+  }
+    .icon-image {
+      display: flex;
+      margin: auto;
+      width: 30%;
+    }
+    .process-icon p {
+      padding-top: 6px;
+      font-family: var(--ff-secondary);
+      font-size: 1.5rem;
+      text-align: center;
+      font-weight: var(--fw-light);
+    }
