@@ -81,26 +81,39 @@ li .current-pg {
 /* Homepage - Hero section */
 
 .hero-background-image {
-  display: inline-flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(6, 1fr);
   width: 100%;
-  min-height: 20em;
+  min-height: 20rem;
+}
+
+#green {
+  grid-column: span 4; 
+}
+#black {
+  grid-column-start: 5;
+}
+#white {
+  grid-column-start: 6;
 }
     .green-pic {
-      width: 50rem;
+      width: 120%;
       height: 20rem;
-      /* height: 20em; */
       object-fit: cover;
     }
+  
     .black-shirt {
-      width: 50rem;
+      width: 100%;
       height: 20rem;
       object-fit: cover;
     }
     .afro {
-      width: 30rem;
+      width: 100%;
       height: 20rem;
       object-fit: cover;
     }
+    
   
 .hero-text {
   float: left;
@@ -160,7 +173,9 @@ button:hover {
 }
 
 .money-confidence-icons {
-  display: inline-flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   float: left;
   max-width: 100%;
 }
@@ -168,7 +183,6 @@ button:hover {
   .money-confidence-goals {
     padding: 10px;
     margin: 10px;
-    max-width: 25%;
   }
       .goals-icon {
         display: flex;
@@ -186,7 +200,7 @@ button:hover {
   .money-confidence-review {
     padding: 10px;
     margin: 10px;
-    max-width: 25%;
+    
   }
       .review-icon {
         display: flex;
@@ -204,7 +218,6 @@ button:hover {
   .money-confidence-meet {
     padding: 10px;
     margin: 10px;
-    max-width: 25%;
   }
       .meet-icon {
         display: flex;
@@ -222,7 +235,6 @@ button:hover {
   .money-confidence-products {
     padding: 10px;
     margin: 10px;
-    max-width: 25%;
   }
       .products-icon {
         display: flex;
@@ -247,7 +259,7 @@ button:hover {
 }
 
 .button-container {
-  top: -160px;
+  top: -100px;
   left: 40%;
   position: relative;
   
@@ -261,21 +273,20 @@ button:hover {
   }
 
 .coaching-process-icons {
-  display: inline-flex;
-  float: left;
-  max-width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   margin: 0px 0px 100px 0px;
 }
 
 .coaching-process-meet {
   padding: 10px;
   margin: 10px;
-  max-width: 25%;
 }
     .meet-coach-icon {
       display: flex;
       margin: auto;
-      width: 40%;
+      width: 30%;
     }
     .coaching-process-meet p {
       padding-top: 6px;
@@ -288,12 +299,11 @@ button:hover {
 .action-steps {
   padding: 10px;
   margin: 10px;
-  max-width: 25%;
 }
     .action-steps-icon {
       display: flex;
       margin: auto;
-      width: 37%;
+      width: 30%;
     }
     .action-steps p {
       padding-top: 6px;
@@ -306,15 +316,14 @@ button:hover {
 .check-in {
   padding: 10px;
   margin: 10px;
-  max-width: 25%;
 }
     .check-in-icon {
       display: flex;
       margin: auto;
-      width: 31%;
+      width: 30%;
     }
     .check-in p {
-      padding-top: 16px;
+      padding-top: 5px;
       font-family: var(--ff-secondary);
       font-size: 1.5rem;
       text-align: center;
@@ -324,12 +333,11 @@ button:hover {
 .support {
   padding: 10px;
   margin: 10px;
-  max-width: 25%;
 }
     .support-icon {
       display: flex;
       margin: auto;
-      width: 33%;
+      width: 30%;
     }
     .support p {
       padding-top: 6px;
@@ -408,33 +416,27 @@ button:hover {
 
 
 
-/* DELETE DIV BORDER 
+/* DELETE DIV BORDER */
 div {
   border: 1px solid black;
 }
-*/
 
 
 .goal-images {
-  display: inline-flex;
-  float: left;
-  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, 1fr);
   background-color: rgba(183, 227, 205, 0.5);
 }
-.goal-images2 {
-  display: inline-flex;
-  float: left;
-  width: 100%;
-  background-color:rgba(183, 227, 205, 0.5);
-}
+
   span {
     font-weight: bold;
     color: var(--clr-main);
   }
 
   .goal-homeownership {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -451,8 +453,8 @@ div {
   }
 
   .goal-retirement {
-    width: 20em;
-    height: 20rem;
+    width: 50%;
+    
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -469,8 +471,8 @@ div {
   }
 
   .goal-emergency {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -487,8 +489,8 @@ div {
   }
 
   .goal-credit {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+    
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -505,8 +507,8 @@ div {
   }
 
   .goal-career {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -523,8 +525,8 @@ div {
   }
 
   .goal-vacation {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -541,8 +543,8 @@ div {
   }
 
   .goal-family {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -559,8 +561,8 @@ div {
   }
 
   .goal-business {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -577,8 +579,8 @@ div {
   }
 
   .goal-couples {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
@@ -595,8 +597,8 @@ div {
   }
 
   .goal-education {
-    width: 20em;
-    height: 20rem;
+    width: 100%;
+
     border: 3px solid var(--clr-accent);
     border-radius: 50%;
     margin: 20px;
