@@ -20,6 +20,11 @@
   --clr-text-bg: #01513D;
 }
 
+/* 
+BREAKPOINTS: 
+width: 501
+*/
+
 @media (min-width: 800px) {
   :root {
     --fs-h1: 4.5rem;
@@ -27,6 +32,10 @@
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
   }
+}
+
+img, embed, object, video {
+  max-width: 100%;
 }
 
 /* Header */
@@ -147,8 +156,8 @@ button {
   position: absolute;
   top: 460px;
   left: 30px;
-  width: 100px;
-  height: 45px;
+  min-height: 48px;
+  min-width: 48px;
   color: var(--clr-main);
   font-family: var(--ff-primary);
   font-weight: var(--fw-reg);
@@ -177,6 +186,7 @@ button:hover {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
+  
   max-width: 100%;
 }
   .money-confidence-goals {
@@ -266,7 +276,7 @@ button:hover {
 .goal-images {
   display: grid;
   gap: 2em;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 100%;
   min-height: 20rem;
   background-color: rgba(183, 227, 205, 0.5);
